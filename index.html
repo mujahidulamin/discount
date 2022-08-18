@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl font-semibold text-center mt-8">Dicount Calculator</h1>
+    </header>
+    <main>
+        <section class="bg-amber-500 p-8 mt-8 w-9/12 mx-auto rounded-lg">
+
+            <h1 class="font-semibold text-center">Your Coupon code is 'DOM'</h1>
+            <h2 class="text-3xl font-semibold text-center">Total Price</h2>
+            <h3 class="text-2xl font-semibold text-center">$<span id="total-price">1000</span></h3>
+            <div class="grid grid-cols-2 gap-2">
+                <button id="apply-btn" class="bg-sky-300 px-8 py-2 mt-4 rounded-lg">Apply
+                </button>
+                <input id="discount-field" type="text" class="mt-4 rounded-lg p-3" placeholder="Discount Coupon">
+            </div>
+            
+
+        </section>
+    </main>
+
+    <script src="js/discount.js"></script>
+</body>
+
+</html>
